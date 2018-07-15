@@ -24,7 +24,7 @@ CP = cp -f
 	${CC} -c ${CFLAGS} $<
 	
 cdirip: ${OBJECTS}
-	${CC} -o $@ ${OBJECTS} -lm
+	${CC} ${LDFLAGS} -o $@ ${OBJECTS} -lm
 	
 all: cdirip
 
