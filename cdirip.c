@@ -3,6 +3,7 @@
 #include <string.h>
 #include <errno.h>
 #include <limits.h>
+#include <unistd.h>
 #ifdef _WIN32
 #include <windows.h>
 #include <shlobj.h>
