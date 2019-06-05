@@ -4,7 +4,7 @@
 #                                   
 #####################################
  
-CC=gcc
+CC?=gcc
 
 # Output filename
 OUTPUT="cdirip"
